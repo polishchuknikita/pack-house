@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="apple-touch-icon" href="img/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="container">
+        <div class="header-info">
+          <div class="header-info__wrap"><a class="header-info__logo" href="/"><img src="img/logo-header.svg" alt="Pack House"></a>
+            <div class="header-info__desc">
+              <address>
+                <p>  Украина, Харьков,</p><span>пер. Электромеханический, 12</span>
+              </address>
+              <div class="header-info__contacts"><a class="header-info__contacts-phone" href="tel:+380673255455">+38 (067) 325 54 55</a><a class="header-info__contacts-email" href="mailto:info@pack-house.com">info@pack-house.com</a></div><a class="header-info__contact-us" href="#">Связаться с нами</a>
+              <div class="header-info__btns"><a href="#">ru</a><a href="#"><img src="img/heart.svg" alt="Понравились"></a><a href="/cart.html"><img src="img/shopping-cart.svg" alt="Корзина"></a><a href="/cabinet-page.html"><img src="img/user-alt.svg" alt="Личный кабинет"></a></div>
+            </div>
+          </div>
+          <nav class="nav"><a class="catalog-btn" href="/catalog-page.html">Каталог
+              <div class="catalog-btn__hamburger"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div></a>
+            <ul>
+              <li><a href="#">Брендированная упаковка</a></li>
+              <li><a href="news-page.html">Новости</a></li>
+              <li><a href="delivery-page.html">Доставка</a></li>
+              <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+            <div class="nav-search"><img src="img/search.svg" alt="Поиск">
+              <input type="text" placeholder="Искать что нибудь нужное">
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <section class="catalog-page-category-section" id="catalog-page-category-section">
+      <div class="container">
+            <ul class="breadcumbs-list">
+              <li> <a href="/">Главная страница</a>
+              </li>
+              <li> <span>Каталог</span>
+              </li>
+            </ul>
+        <div class="title-wrap">
+          <h2>Каталог</h2><span>Упаковки</span>
+        </div>
+        <div class="catalog-page-wrap"> 
+          <div class="catalog-page-category-info"> 
+                <ul class="catalog-aside-menu"> 
+                  <li><a href="#">Упаковки</a></li>
+                  <li><a href="#">Одноразовая посуда</a></li>
+                  <li><a href="#">Бутылки</a></li>
+                  <li><a href="#">Набор посуды</a></li>
+                  <li><a href="#">Хозтовары</a></li>
+                  <li><a href="#">Ведра</a></li>
+                  <li><a href="#">Полиэтиленовая продукция</a></li>
+                  <li><a href="#">Гастроемкости</a></li>
+                </ul>
+            <div class="catalog-page-category-filter"> 
+              <div class="catalog-page-category-filter__cost"> 
+                <div class="catalog-page-category-filter__name"><span>Цена</span><a href="#"><span> </span></a></div>
+                <div class="catalog-page-category-filter__input-value"> 
+                  <input type="text" placeholder="0"><span> </span>
+                  <input type="text" placeholder="1000">
+                  <p>грн</p>
+                </div>
+              </div>
+              <div class="catalog-page-category-filter__type"> 
+                <div class="catalog-page-category-filter__name"><span>Вид деятельности</span><a href="#"><span> </span></a></div>
+                <div class="catalog-page-category-filter__checkbox">
+                      <label for="HoReKa">
+                        <input type="checkbox" id="HoReKa"><span>ХоРеКа</span>
+                      </label>
+                      <label for="Cooking">
+                        <input type="checkbox" id="Cooking"><span>Кулинария</span>
+                      </label>
+                      <label for="Score">
+                        <input type="checkbox" id="Score"><span>Магазин</span>
+                      </label>
+                      <label for="Confectionery">
+                        <input type="checkbox" id="Confectionery"><span>Кондитерская</span>
+                      </label>
+                      <label for="Pickles">
+                        <input type="checkbox" id="Pickles"><span>Соленья</span>
+                      </label>
+                      <label for="Food-delivery">
+                        <input type="checkbox" id="Food-delivery"><span>Доставка еды</span>
+                      </label>
+                      <label for="Sushi">
+                        <input type="checkbox" id="Sushi"><span>Суши</span>
+                      </label>
+                      <label for="Pizzeria">
+                        <input type="checkbox" id="Pizzeria"><span>Пиццерия</span>
+                      </label>
+                      <label for="Sale-sets">
+                        <input type="checkbox" id="Sale-sets"><span>Продажа наборов с прилавка</span>
+                      </label>
+                </div>
+              </div>
+              <div class="catalog-page-category-filter__btns"> <a class="catalog-page-category-filter__btn-see" href="#">Показать</a><a class="catalog-page-category-filter__btn-remove" href="#">Сбросить<img src="img/times.png" alt="x"></a></div>
+            </div>
+            <div class="catalog-page-category-info__banner"> <a href="#"> <span>Брендировананная продукция</span><img src="img/banner-category-bg.jpg" alt="banner"></a></div>
+          </div>
+          <div class="catalog-page-cart"> 
+            <ul class="catalog-page-cart__list"> 
+                  <li><a href="#">
+                      <h4>Картонные</h4><img src="img/category-page-item.png" alt="img"></a></li>
+                  <li><a href="#">
+                      <h4>Пластиковые</h4><img src="img/category-page-item2.png" alt="img"></a></li>
+                  <li><a href="#">
+                      <h4>Алюминиевые</h4><img src="img/category-page-item3.png" alt="img"></a></li>
+                  <li><a href="#">
+                      <h4>Под запайку</h4><img src="img/category-page-item4.png" alt="img"></a></li>
+            </ul>
+            <div class="catalog-page-cart__filter"> 
+              <div class="catalog-page-cart__count"> 
+                <p>Показывать</p><span>9</span><a href="#"> <img src="img/angle-down.png" alt="angel"></a>
+              </div>
+              <div class="catalog-page-cart__filter-group"> <a href="#">По умолчанию<img src="img/angle-down.png" alt="angel"></a></div>
+            </div>
+                <ul class="preview-list">
+                  <li>
+                    <div class="preview-list-img"><span>Акция</span><img src="img/catalog-category/item.png" alt="Картинка"><span>-13%</span></div>
+                    <div class="preview-list-info">
+                      <h4>Контейнер алюминиевый 430мл</h4>
+                      <div class="preview-list-about">
+                        <div class="stars"><img src="img/star-full.png" alt="star"><img src="img/star-full.png" alt="star"><img src="img/star-full.png" alt="star"><img src="img/star-full.png" alt="star"><img src="img/star.png" alt="star"></div>
+                        <p>В наличии</p>
+                      </div>
+                      <div class="preview-list-pack">
+                        <button class="active" type="button">2400 шт. в коробке</button>
+                        <button type="button">100 шт. в коробке</button>
+                      </div>
+                      <div class="preview-list-cost">
+                        <div class="preview-list-cost__one">
+                          <p>3.65 ₽</p><span>1 шт</span>
+                        </div>
+                        <div class="preview-list-cost__count">
+                          <input type="text" placeholder="1000">
+                          <div class="preview-list-cost__count-btns">
+                            <button type="button"><img src="img/arrow-top.png" alt="стрелка"></button>
+                            <button type="button"><img src="img/arrow-bottom.png" alt="стрелка"></button>
+                          </div>
+                        </div>
+                        <div class="preview-list-cost__money">
+                          <p>Всего: <span>3736 ₽</span></p>
+                        </div>
+                      </div>
+                      <div class="preview-list-buttons"><a class="preview-list-buttons__heart" href="#"><img src="img/heart.svg" alt="heart"></a><a class="preview-list-buttons__eye" href="#"><img src="img/eye.svg" alt="eye"></a><a class="preview-list-buttons__cart" href="#">В корзину<img src="img/shopping-cart-w.svg"></a>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="preview-list-img"><span>Акция</span><img src="img/catalog-category/item2.png" alt="Картинка"><span>-13%</span></div>
+                    <div class="preview-list-info">
+                      <h4>Контейнер алюминиевый 430мл</h4>
+                      <div class="preview-list-about">
+                        <div class="stars"><img src="img/star-full.png" alt="star"><img src="img/star-full.png" alt="star"><img src="img/star-full.png" alt="star"><img src="img/star-full.png" alt="star"><img src="img/star.png" alt="star"></div>
+                        <p>В наличии</p>
+                      </div>
+                      <div class="preview-list-pack">
+                        <button class="active" type="button">2400 шт. в коробке</button>
+                        <button type="button">100 шт. в коробке</button>
+                      </div>
+                      <div class="preview-list-cost">
+                        <div class="preview-list-cost__one">
+                          <p>3.65 ₽</p><span>1 шт</span>
+                        </div>
+                        <div class="preview-list-cost__count">
+                          <input type="text" placeholder="1000">
+                          <div class="preview-list-cost__count-btns">
+                            <button type="button"><img src="img/arrow-top.png" alt="стрелка"></button>
+                            <button type="button"><img src="img/arrow-bottom.png" alt="стрелка"></button>
+                          </div>
+                        </div>
+                        <div class="preview-list-cost__money">
+                          <p>Всего: <span>3736 ₽</span></p>
+                        </div>
+                      </div>
+                      <div class="preview-list-buttons"><a class="preview-list-buttons__heart" href="#"><img src="img/heart.svg" alt="heart"></a><a class="preview-list-buttons__eye" href="#"><img src="img/eye.svg" alt="eye"></a><a class="preview-list-buttons__cart" href="#">В корзину<img src="img/shopping-cart-w.svg"></a>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="preview-list-img"><span>Акция</span><img src="img/catalog-category/item3.png" alt="Картинка"><span>-13%</span></div>
+                    <div class="preview-list-info">
+                      <h4>Контейнер алюминиевый 430мл</h4>
+                      <div class="preview-list-about">
+                        <div class="stars"><img src="img/star-full.png" alt="star"><img src="img/star-full.png" alt="star"><img src="img/star-full.png" alt="star"><img src="img/star-full.png" alt="star"><img src="img/star.png" alt="star"></div>
+                        <p>В наличии</p>
+                      </div>
+                      <div class="preview-list-pack">
+                        <button class="active" type="button">2400 шт. в коробке</button>
+                        <button type="button">100 шт. в коробке</button>
+                      </div>
+                      <div class="preview-list-cost">
+                        <div class="preview-list-cost__one">
+                          <p>3.65 ₽</p><span>1 шт</span>
+                        </div>
+                        <div class="preview-list-cost__count">
+                          <input type="text" placeholder="1000">
+                          <div class="preview-list-cost__count-btns">
+                            <button type="button"><img src="img/arrow-top.png" alt="стрелка"></button>
+                            <button type="button"><img src="img/arrow-bottom.png" alt="стрелка"></button>
+                          </div>
+                        </div>
+                        <div class="preview-list-cost__money">
+                          <p>Всего: <span>3736 ₽</span></p>
+                        </div>
+                      </div>
+                      <div class="preview-list-buttons"><a class="preview-list-buttons__heart" href="#"><img src="img/heart.svg" alt="heart"></a><a class="preview-list-buttons__eye" href="#"><img src="img/eye.svg" alt="eye"></a><a class="preview-list-buttons__cart" href="#">В корзину<img src="img/shopping-cart-w.svg"></a>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="preview-list-img"><span>Акция</span><img src="img/catalog-category/item4.png" alt="Картинка"><span>-13%</span></div>
+                    <div class="preview-list-info">
+                      <h4>Контейнер алюминиевый 430мл</h4>
+                      <div class="preview-list-about">
+                        <div class="stars"><img src="img/star-full.png" alt="star"><img src="img/star-full.png" alt="star"><img src="img/star-full.png" alt="star"><img src="img/star-full.png" alt="star"><img src="img/star.png" alt="star"></div>
+                        <p>В наличии</p>
+                      </div>
+                      <div class="preview-list-pack">
+                        <button class="active" type="button">2400 шт. в коробке</button>
+                        <button type="button">100 шт. в коробке</button>
+                      </div>
+                      <div class="preview-list-cost">
+                        <div class="preview-list-cost__one">
+                          <p>3.65 ₽</p><span>1 шт</span>
+                        </div>
+                        <div class="preview-list-cost__count">
+                          <input type="text" placeholder="1000">
+                          <div class="preview-list-cost__count-btns">
+                            <button type="button"><img src="img/arrow-top.png" alt="стрелка"></button>
+                            <button type="button"><img src="img/arrow-bottom.png" alt="стрелка"></button>
+                          </div>
+                        </div>
+                        <div class="preview-list-cost__money">
+                          <p>Всего: <span>3736 ₽</span></p>
+                        </div>
+                      </div>
+                      <div class="preview-list-buttons"><a class="preview-list-buttons__heart" href="#"><img src="img/heart.svg" alt="heart"></a><a class="preview-list-buttons__eye" href="#"><img src="img/eye.svg" alt="eye"></a><a class="preview-list-buttons__cart" href="#">В корзину<img src="img/shopping-cart-w.svg"></a>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="preview-list-img"><span>Акция</span><img src="img/catalog-category/item5.png" alt="Картинка"><span>-13%</span></div>
+                    <div class="preview-list-info">
+                      <h4>Контейнер алюминиевый 430мл</h4>
+                      <div class="preview-list-about">
+                        <div class="stars"><img src="img/star-full.png" alt="star"><img src="img/star-full.png" alt="star"><img src="img/star-full.png" alt="star"><img src="img/star-full.png" alt="star"><img src="img/star.png" alt="star"></div>
+                        <p>В наличии</p>
+                      </div>
+                      <div class="preview-list-pack">
+                        <button class="active" type="button">2400 шт. в коробке</button>
+                        <button type="button">100 шт. в коробке</button>
+                      </div>
+                      <div class="preview-list-cost">
+                        <div class="preview-list-cost__one">
+                          <p>3.65 ₽</p><span>1 шт</span>
+                        </div>
+                        <div class="preview-list-cost__count">
+                          <input type="text" placeholder="1000">
+                          <div class="preview-list-cost__count-btns">
+                            <button type="button"><img src="img/arrow-top.png" alt="стрелка"></button>
+                            <button type="button"><img src="img/arrow-bottom.png" alt="стрелка"></button>
+                          </div>
+                        </div>
+                        <div class="preview-list-cost__money">
+                          <p>Всего: <span>3736 ₽</span></p>
+                        </div>
+                      </div>
+                      <div class="preview-list-buttons"><a class="preview-list-buttons__heart" href="#"><img src="img/heart.svg" alt="heart"></a><a class="preview-list-buttons__eye" href="#"><img src="img/eye.svg" alt="eye"></a><a class="preview-list-buttons__cart" href="#">В корзину<img src="img/shopping-cart-w.svg"></a>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="preview-list-img"><span>Акция</span><img src="img/catalog-category/item6.png" alt="Картинка"><span>-13%</span></div>
+                    <div class="preview-list-info">
+                      <h4>Контейнер алюминиевый 430мл</h4>
+                      <div class="preview-list-about">
+                        <div class="stars"><img src="img/star-full.png" alt="star"><img src="img/star-full.png" alt="star"><img src="img/star-full.png" alt="star"><img src="img/star-full.png" alt="star"><img src="img/star.png" alt="star"></div>
+                        <p>В наличии</p>
+                      </div>
+                      <div class="preview-list-pack">
+                        <button class="active" type="button">2400 шт. в коробке</button>
+                        <button type="button">100 шт. в коробке</button>
+                      </div>
+                      <div class="preview-list-cost">
+                        <div class="preview-list-cost__one">
+                          <p>3.65 ₽</p><span>1 шт</span>
+                        </div>
+                        <div class="preview-list-cost__count">
+                          <input type="text" placeholder="1000">
+                          <div class="preview-list-cost__count-btns">
+                            <button type="button"><img src="img/arrow-top.png" alt="стрелка"></button>
+                            <button type="button"><img src="img/arrow-bottom.png" alt="стрелка"></button>
+                          </div>
+                        </div>
+                        <div class="preview-list-cost__money">
+                          <p>Всего: <span>3736 ₽</span></p>
+                        </div>
+                      </div>
+                      <div class="preview-list-buttons"><a class="preview-list-buttons__heart" href="#"><img src="img/heart.svg" alt="heart"></a><a class="preview-list-buttons__eye" href="#"><img src="img/eye.svg" alt="eye"></a><a class="preview-list-buttons__cart" href="#">В корзину<img src="img/shopping-cart-w.svg"></a>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="preview-list-img"><span>Акция</span><img src="img/catalog-category/item7.png" alt="Картинка"><span>-13%</span></div>
+                    <div class="preview-list-info">
+                      <h4>Контейнер алюминиевый 430мл</h4>
+                      <div class="preview-list-about">
+                        <div class="stars"><img src="img/star-full.png" alt="star"><img src="img/star-full.png" alt="star"><img src="img/star-full.png" alt="star"><img src="img/star-full.png" alt="star"><img src="img/star.png" alt="star"></div>
+                        <p>В наличии</p>
+                      </div>
+                      <div class="preview-list-pack">
+                        <button class="active" type="button">2400 шт. в коробке</button>
+                        <button type="button">100 шт. в коробке</button>
+                      </div>
+                      <div class="preview-list-cost">
+                        <div class="preview-list-cost__one">
+                          <p>3.65 ₽</p><span>1 шт</span>
+                        </div>
+                        <div class="preview-list-cost__count">
+                          <input type="text" placeholder="1000">
+                          <div class="preview-list-cost__count-btns">
+                            <button type="button"><img src="img/arrow-top.png" alt="стрелка"></button>
+                            <button type="button"><img src="img/arrow-bottom.png" alt="стрелка"></button>
+                          </div>
+                        </div>
+                        <div class="preview-list-cost__money">
+                          <p>Всего: <span>3736 ₽</span></p>
+                        </div>
+                      </div>
+                      <div class="preview-list-buttons"><a class="preview-list-buttons__heart" href="#"><img src="img/heart.svg" alt="heart"></a><a class="preview-list-buttons__eye" href="#"><img src="img/eye.svg" alt="eye"></a><a class="preview-list-buttons__cart" href="#">В корзину<img src="img/shopping-cart-w.svg"></a>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="preview-list-img"><span>Акция</span><img src="img/catalog-category/item8.png" alt="Картинка"><span>-13%</span></div>
+                    <div class="preview-list-info">
+                      <h4>Контейнер алюминиевый 430мл</h4>
+                      <div class="preview-list-about">
+                        <div class="stars"><img src="img/star-full.png" alt="star"><img src="img/star-full.png" alt="star"><img src="img/star-full.png" alt="star"><img src="img/star-full.png" alt="star"><img src="img/star.png" alt="star"></div>
+                        <p>В наличии</p>
+                      </div>
+                      <div class="preview-list-pack">
+                        <button class="active" type="button">2400 шт. в коробке</button>
+                        <button type="button">100 шт. в коробке</button>
+                      </div>
+                      <div class="preview-list-cost">
+                        <div class="preview-list-cost__one">
+                          <p>3.65 ₽</p><span>1 шт</span>
+                        </div>
+                        <div class="preview-list-cost__count">
+                          <input type="text" placeholder="1000">
+                          <div class="preview-list-cost__count-btns">
+                            <button type="button"><img src="img/arrow-top.png" alt="стрелка"></button>
+                            <button type="button"><img src="img/arrow-bottom.png" alt="стрелка"></button>
+                          </div>
+                        </div>
+                        <div class="preview-list-cost__money">
+                          <p>Всего: <span>3736 ₽</span></p>
+                        </div>
+                      </div>
+                      <div class="preview-list-buttons"><a class="preview-list-buttons__heart" href="#"><img src="img/heart.svg" alt="heart"></a><a class="preview-list-buttons__eye" href="#"><img src="img/eye.svg" alt="eye"></a><a class="preview-list-buttons__cart" href="#">В корзину<img src="img/shopping-cart-w.svg"></a>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="preview-list-img"><span>Акция</span><img src="img/catalog-category/item9.png" alt="Картинка"><span>-13%</span></div>
+                    <div class="preview-list-info">
+                      <h4>Контейнер алюминиевый 430мл</h4>
+                      <div class="preview-list-about">
+                        <div class="stars"><img src="img/star-full.png" alt="star"><img src="img/star-full.png" alt="star"><img src="img/star-full.png" alt="star"><img src="img/star-full.png" alt="star"><img src="img/star.png" alt="star"></div>
+                        <p>В наличии</p>
+                      </div>
+                      <div class="preview-list-pack">
+                        <button class="active" type="button">2400 шт. в коробке</button>
+                        <button type="button">100 шт. в коробке</button>
+                      </div>
+                      <div class="preview-list-cost">
+                        <div class="preview-list-cost__one">
+                          <p>3.65 ₽</p><span>1 шт</span>
+                        </div>
+                        <div class="preview-list-cost__count">
+                          <input type="text" placeholder="1000">
+                          <div class="preview-list-cost__count-btns">
+                            <button type="button"><img src="img/arrow-top.png" alt="стрелка"></button>
+                            <button type="button"><img src="img/arrow-bottom.png" alt="стрелка"></button>
+                          </div>
+                        </div>
+                        <div class="preview-list-cost__money">
+                          <p>Всего: <span>3736 ₽</span></p>
+                        </div>
+                      </div>
+                      <div class="preview-list-buttons"><a class="preview-list-buttons__heart" href="#"><img src="img/heart.svg" alt="heart"></a><a class="preview-list-buttons__eye" href="#"><img src="img/eye.svg" alt="eye"></a><a class="preview-list-buttons__cart" href="#">В корзину<img src="img/shopping-cart-w.svg"></a>
+                      </div>
+                    </div>
+                  </li>
+                </ul><a class="news-page-btn-more product-all-btn" href="#">Показать больше<img src="img/sync.png" alt="sync"></a>
+            <div class="news-page-content__pagination-info">
+              <ul class="news-page-content__pagination-list">
+                <li> <a class="active" href="#">1</a></li>
+                <li> <a href="#">2</a></li>
+                <li> <a href="#">3</a></li>
+                <li> <span>...</span></li>
+                <li> <a href="#">5</a></li>
+              </ul><span>Показано с 1 по 9 из 45 (всего 5 страниц)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="find-info-section" id="find-info-section">
+      <div class="container"> 
+        <div class="find-info">
+          <h4>Не нашли, что искали на нашем сайте? Неудобный поиск? Нашли проблему на сайте?</h4>
+          <p>Помогите нам стать лучше, напишите нам!</p><a href="mailto:info@pack-house.com">info@pack-house.com</a>
+        </div>
+      </div>
+    </section>
+    <footer class="footer" id="footer">
+      <div class="container">
+        <div class="news-form">
+          <h3>Будьте в курсе наших акций и новостей</h3>
+          <form action="#">
+            <label for="footer-email"><img src="img/footer-mail.png" alt="email">
+              <input type="email" placeholder="Введите ваш e-mail" required id="footer-email">
+            </label>
+            <button type="submit">Подписаться</button>
+          </form>
+          <p>Нажимая на кнопку “Подписаться”, Вы даете свое согласие на <a href="#">обработку персональных данных</a><span>.</span></p>
+        </div>
+        <div class="footer-wrap">
+          <div class="footer-info"><a class="footer-info__logo" href="/"><img src="img/logo-footer.svg" alt="Pack House"></a>
+            <address><span>Украина, Харьков,</span><span>пер. Электромеханический, 12</span></address>
+            <div class="footer-info__contacts"><a class="footer-info__tel" href="tel:+380673255455">+38 (067) 325 54 55</a><a class="footer-info__email" href="mailto:info@pack-house.com">info@pack-house.com</a></div><span class="footer-info__time">пн-пт с 9:00 до 17:00</span>
+          </div>
+          <div class="footer-catalog">
+            <h3>Каталог товаров</h3>
+            <ul>
+              <li> <a href="#">Упаковки</a></li>
+              <li> <a href="#">Одноразовая посуда</a></li>
+              <li> <a href="#">Бутылки</a></li>
+              <li> <a href="#">Набор посуды</a></li>
+              <li> <a href="#">Хозтовары</a></li>
+              <li> <a href="#">Ведра</a></li>
+              <li> <a href="#">Гастроемкости</a></li>
+              <li> <a href="#">Полиэтиленовая продукция</a></li>
+              <li> <a href="#">Упаковка под запайку</a></li>
+            </ul>
+          </div>
+          <div class="footer-nav">
+            <h3>Навигация</h3>
+            <ul>
+              <li> <a href="news-page.html">Новости</a></li>
+              <li> <a href="delivery-page.html">Доставка</a></li>
+              <li> <a href="contacts.html">Контакты</a></li>
+            </ul>
+          </div>
+          <div class="footer-social">
+            <h3>Мы в соц. сетях</h3>
+            <ul>
+              <li><a href="#">Instagram<img src="img/Instagram.png" alt="Инстаграмм"></a></li>
+              <li><a href="#">Facebook<img src="img/facebook.png" alt="Фейсбук"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-credits">
+        <div class="footer-credits-wrap"><span class="footer-credits__info">2021 © Все права защищены</span><a href="#">Карта сайта</a><a class="footer-credits__dis" href="#">Разработка дизайна <span>Сергей Тормозов</span></a></div>
+      </div>
+    </footer>
+  </body>
+</html>

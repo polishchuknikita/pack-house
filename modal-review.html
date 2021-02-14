@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="apple-touch-icon" href="img/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="container">
+        <div class="header-info">
+          <div class="header-info__wrap"><a class="header-info__logo" href="/"><img src="img/logo-header.svg" alt="Pack House"></a>
+            <div class="header-info__desc">
+              <address>
+                <p>  Украина, Харьков,</p><span>пер. Электромеханический, 12</span>
+              </address>
+              <div class="header-info__contacts"><a class="header-info__contacts-phone" href="tel:+380673255455">+38 (067) 325 54 55</a><a class="header-info__contacts-email" href="mailto:info@pack-house.com">info@pack-house.com</a></div><a class="header-info__contact-us" href="#">Связаться с нами</a>
+              <div class="header-info__btns"><a href="#">ru</a><a href="#"><img src="img/heart.svg" alt="Понравились"></a><a href="#"><img src="img/shopping-cart.svg" alt="Корзина"></a><a href="#"><img src="img/user-alt.svg" alt="Личный кабинет"></a></div>
+            </div>
+          </div>
+          <nav class="nav"><a class="catalog-btn" href="#">Каталог
+              <div class="catalog-btn__hamburger"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div></a>
+            <ul>
+              <li><a href="#">Брендированная упаковка</a></li>
+              <li><a href="news-page.html">Новости</a></li>
+              <li><a href="delivery-page.html">Доставка</a></li>
+              <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+            <div class="nav-search"><img src="img/search.svg" alt="Поиск">
+              <input type="text" placeholder="Искать что нибудь нужное">
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <div class="reg-modal-overlay"> 
+      <div class="reg-modal"> 
+        <h2>Регистрация</h2>
+        <form class="reg-modal">
+              <label class="reg-modal-input reg-modal-input_firstName" for="reg-modal-firstName">
+                <p>Ваше имя<span>*</span></p>
+                <input type="text" id="reg-modal-firstName" placeholder="Иван"><span>Ваше имя необходимо для того, чтобы мы знали с кем имеем дело :)</span>
+              </label>
+              <label class="reg-modal-input reg-modal-input_lastName" for="reg-modal-lastName">
+                <p>Ваша фамилия<span>*</span></p>
+                <input type="text" id="reg-modal-lastName" placeholder="Иванов"><span>Ваша фамилия необходима для того, чтобы мы знали с кем имеем дело :)</span>
+              </label>
+              <label class="reg-modal-input reg-modal-input_email" for="reg-modal-email">
+                <p>Ваш Email<span>*</span></p>
+                <input type="email" id="reg-modal-email" placeholder="example@gmail.com"><span>Является логином для входа на сайт. Также на него будут приходить уведомления о статусах заказа</span>
+              </label>
+              <label class="reg-modal-input reg-modal-input_phone" for="reg-modal-phone">
+                <p>Ваш телефон<span>*</span></p>
+                <input type="tel" id="reg-modal-phone" placeholder="7(999) 999 99-99"><span>Контактный телефон нужен для уточнения деталей заказа. Звонить или писать по пустякам не будем :)</span>
+              </label>
+              <label class="reg-modal-input reg-modal-input_pass" for="reg-modal-pass">
+                <p>Пароль<span>*</span></p>
+                <input type="text" id="reg-modal-pass" placeholder="Пароль">
+                <button class="eye" type="button"><img src="img/Eye-slash.png" alt="eye"></button>
+              </label>
+              <label class="reg-modal-input reg-modal-input_confirm" for="reg-modal-confirm">
+                <p>Подтверждение пароля<span>*</span></p>
+                <input type="text" id="reg-modal-confirm" placeholder="Подтверждение пароля">
+                <button class="eye" type="button"><img src="img/Eye-slash.png" alt="eye"></button>
+              </label>
+        </form>
+      </div>
+    </div>
+    <footer class="footer" id="footer">
+      <div class="container">
+        <div class="news-form">
+          <h3>Будьте в курсе наших акций и новостей</h3>
+          <form action="#">
+            <label for="footer-email"><img src="img/footer-mail.png" alt="email">
+              <input type="email" placeholder="Введите ваш e-mail" required id="footer-email">
+            </label>
+            <button type="submit">Подписаться</button>
+          </form>
+          <p>Нажимая на кнопку “Подписаться”, Вы даете свое согласие на <a href="#">обработку персональных данных</a><span>.</span></p>
+        </div>
+        <div class="footer-wrap">
+          <div class="footer-info"><a class="footer-info__logo" href="/"><img src="img/logo-footer.svg" alt="Pack House"></a>
+            <address><span>Украина, Харьков,</span><span>пер. Электромеханический, 12</span></address>
+            <div class="footer-info__contacts"><a class="footer-info__tel" href="tel:+380673255455">+38 (067) 325 54 55</a><a class="footer-info__email" href="mailto:info@pack-house.com">info@pack-house.com</a></div><span class="footer-info__time">пн-пт с 9:00 до 17:00</span>
+          </div>
+          <div class="footer-catalog">
+            <h3>Каталог товаров</h3>
+            <ul>
+              <li> <a href="#">Упаковки</a></li>
+              <li> <a href="#">Одноразовая посуда</a></li>
+              <li> <a href="#">Бутылки</a></li>
+              <li> <a href="#">Набор посуды</a></li>
+              <li> <a href="#">Хозтовары</a></li>
+              <li> <a href="#">Ведра</a></li>
+              <li> <a href="#">Гастроемкости</a></li>
+              <li> <a href="#">Полиэтиленовая продукция</a></li>
+              <li> <a href="#">Упаковка под запайку</a></li>
+            </ul>
+          </div>
+          <div class="footer-nav">
+            <h3>Навигация</h3>
+            <ul>
+              <li> <a href="#">Новости</a></li>
+              <li> <a href="#">Доставка</a></li>
+              <li> <a href="#">Контакты</a></li>
+            </ul>
+          </div>
+          <div class="footer-social">
+            <h3>Мы в соц. сетях</h3>
+            <ul>
+              <li><a href="#">Instagram<img src="img/Instagram.png" alt="Инстаграмм"></a></li>
+              <li><a href="#">Facebook<img src="img/facebook.png" alt="Фейсбук"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-credits">
+        <div class="footer-credits-wrap"><span class="footer-credits__info">2021 © Все права защищены</span><a href="#">Карта сайта</a><a class="footer-credits__dis" href="#">Разработка дизайна <span>Сергей Тормозов</span></a></div>
+      </div>
+    </footer>
+  </body>
+</html>
