@@ -7,8 +7,9 @@
     <meta name="description" content="">
     <meta name="keywords" content="">
     <link rel="apple-touch-icon" href="img/favicon.ico">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600" rel="stylesheet">
+    <link href="fonts/FontAwesome/css/all.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media-queries.css">
   </head>
   <body>
     <header class="header" id="header">
@@ -20,7 +21,7 @@
                 <p>  Украина, Харьков,</p><span>пер. Электромеханический, 12</span>
               </address>
               <div class="header-info__contacts"><a class="header-info__contacts-phone" href="tel:+380673255455">+38 (067) 325 54 55</a><a class="header-info__contacts-email" href="mailto:info@pack-house.com">info@pack-house.com</a></div><a class="header-info__contact-us" href="#">Связаться с нами</a>
-              <div class="header-info__btns"><a href="#">ru</a><a href="#"><img src="img/heart.svg" alt="Понравились"></a><a href="cart.html"><img src="img/shopping-cart.svg" alt="Корзина"></a><a href="cabinet-page.html"><img src="img/user-alt.svg" alt="Личный кабинет"></a></div>
+              <div class="header-info__btns"><a href="#">ru</a><a href="#"><i class="far fa-heart"></i></a><a href="cart.html"><img src="img/shopping-cart.svg" alt="Корзина"></a><a href="cabinet-page.html"><i class="far fa-user"></i></a></div>
             </div>
           </div>
           <nav class="nav"><a class="catalog-btn" href="catalog-page.html">Каталог
@@ -31,7 +32,7 @@
               <li><a href="delivery-page.html">Доставка</a></li>
               <li><a href="contacts.html">Контакты</a></li>
             </ul>
-            <div class="nav-search"><img src="img/search.svg" alt="Поиск">
+            <div class="nav-search"><i class="fas fa-search"></i>
               <input type="text" placeholder="Искать что нибудь нужное">
             </div>
           </nav>
@@ -52,43 +53,37 @@
       <div class="container">
         <h2 class="section-title section-title_category-section">Категории</h2>
         <div class="category">
-          <div class="category__item">
-            <h3>Упаковки</h3>
+          <div class="category__item"><a href="#"> Упаковки</a>
             <ul>
               <li><a href="#">Картоннные</a></li>
               <li><a href="#">Пластиковые</a></li>
               <li><a href="#">Алюминиевые</a></li>
             </ul><img src="img/category-item1.png" alt="#">
           </div>
-          <div class="category__item">
-            <h3>Одноразовая посуда</h3>
+          <div class="category__item"><a href="#"> Одноразовая посуда</a>
             <ul>
               <li><a href="#">Тарелки</a></li>
               <li><a href="#">Стаканы</a></li>
             </ul><img src="img/category-item2.png" alt="#">
           </div>
-          <div class="category__item">
-            <h3>Бутылки</h3>
+          <div class="category__item"><a href="#"> Бутылки</a>
             <ul>
               <li><a href="#">Пластиковые</a></li>
             </ul><img src="img/category-item3.png" alt="#">
           </div>
-          <div class="category__item">
-            <h3>Набор посуды</h3>
+          <div class="category__item"><a href="#"> Набор посуды</a>
             <ul>
               <li><a href="#">Для кухни</a></li>
             </ul><img src="img/category-item4.png" alt="#">
           </div>
-          <div class="category__item">
-            <h3>Хозтовары</h3>
+          <div class="category__item"><a href="#"> Хозтовары</a>
             <ul>
               <li><a href="#">Губки, салфетки</a></li>
               <li><a href="#">Мусорные пакеты</a></li>
               <li><a href="#">Перчатки, фартуки</a></li>
             </ul><img src="img/category-item5.png" alt="#">
           </div>
-          <div class="category__item">
-            <h3>Ведра</h3>
+          <div class="category__item"><a href="#"> Ведра</a>
             <ul>
               <li><a href="#">Для мусора</a></li>
               <li><a href="#">Пластиковые</a></li>
@@ -114,7 +109,7 @@
                   <div class="preview-list-info">
                     <h4>Стакан крафтовый 370мл d-90mm</h4>
                     <div class="preview-list-about">
-                      <div class="stars"><img src="img/star-full.png" alt="star"><img src="img/star-full.png" alt="star"><img src="img/star-full.png" alt="star"><img src="img/star-full.png" alt="star"><img src="img/star.png" alt="star"></div>
+                      <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
                       <p>В наличии</p>
                     </div>
                     <div class="preview-list-pack">
@@ -128,8 +123,8 @@
                       <div class="preview-list-cost__count">
                         <input type="text" placeholder="1000">
                         <div class="preview-list-cost__count-btns">
-                          <button type="button"><img src="img/arrow-top.png" alt="стрелка"></button>
-                          <button type="button"><img src="img/arrow-bottom.png" alt="стрелка"></button>
+                          <button type="button"><i class="fas fa-chevron-up"></i></button>
+                          <button type="button"><i class="fas fa-chevron-down"></i></button>
                         </div>
                       </div>
                       <div class="preview-list-cost__money">
@@ -137,7 +132,7 @@
                         <p>Вы сэкономите: <span>239 ₽</span></p>
                       </div>
                     </div>
-                    <div class="preview-list-buttons"><a class="preview-list-buttons__heart" href="#"><img src="img/heart.svg" alt="heart"></a><a class="preview-list-buttons__eye" href="#"><img src="img/eye.svg" alt="eye"></a><a class="preview-list-buttons__cart" href="#">В корзину<img src="img/shopping-cart-w.svg"></a>
+                    <div class="preview-list-buttons"><a class="preview-list-buttons__heart" href="#"><img src="img/WhishList-black.png" alt="heart"></a><a class="preview-list-buttons__eye" href="#"><i class="far fa-eye"></i></a><a class="preview-list-buttons__cart" href="#">В корзину<img src="img/shopping-cart-w.svg"></a>
                     </div>
                   </div>
                 </li>
@@ -146,7 +141,7 @@
                   <div class="preview-list-info">
                     <h4>Контейнер алюминиевый 430мл</h4>
                     <div class="preview-list-about">
-                      <div class="stars"><img src="img/star-full.png" alt="star"><img src="img/star-full.png" alt="star"><img src="img/star-full.png" alt="star"><img src="img/star-full.png" alt="star"><img src="img/star.png" alt="star"></div>
+                      <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
                       <p>В наличии</p>
                     </div>
                     <div class="preview-list-pack">
@@ -160,8 +155,8 @@
                       <div class="preview-list-cost__count">
                         <input type="text" placeholder="1000">
                         <div class="preview-list-cost__count-btns">
-                          <button type="button"><img src="img/arrow-top.png" alt="стрелка"></button>
-                          <button type="button"><img src="img/arrow-bottom.png" alt="стрелка"></button>
+                          <button type="button"><i class="fas fa-chevron-up"></i></button>
+                          <button type="button"><i class="fas fa-chevron-down"></i></button>
                         </div>
                       </div>
                       <div class="preview-list-cost__money">
@@ -169,7 +164,7 @@
                         <p>Вы сэкономите: <span>239 ₽</span></p>
                       </div>
                     </div>
-                    <div class="preview-list-buttons"><a class="preview-list-buttons__heart" href="#"><img src="img/heart.svg" alt="heart"></a><a class="preview-list-buttons__eye" href="#"><img src="img/eye.svg" alt="eye"></a><a class="preview-list-buttons__cart" href="#">В корзину<img src="img/shopping-cart-w.svg"></a>
+                    <div class="preview-list-buttons"><a class="preview-list-buttons__heart" href="#"><img src="img/WhishList-black.png" alt="heart"></a><a class="preview-list-buttons__eye" href="#"><i class="far fa-eye"></i></a><a class="preview-list-buttons__cart" href="#">В корзину<img src="img/shopping-cart-w.svg"></a>
                     </div>
                   </div>
                 </li>
@@ -178,7 +173,7 @@
                   <div class="preview-list-info">
                     <h4>Стакан одноразовый 500мл (Пивной) 7.2г АТЕМ</h4>
                     <div class="preview-list-about">
-                      <div class="stars"><img src="img/star-full.png" alt="star"><img src="img/star-full.png" alt="star"><img src="img/star-full.png" alt="star"><img src="img/star-full.png" alt="star"><img src="img/star.png" alt="star"></div>
+                      <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
                       <p>Осталось 5250 шт.</p>
                     </div>
                     <div class="preview-list-pack">
@@ -192,8 +187,8 @@
                       <div class="preview-list-cost__count">
                         <input type="text" placeholder="1000">
                         <div class="preview-list-cost__count-btns">
-                          <button type="button"><img src="img/arrow-top.png" alt="стрелка"></button>
-                          <button type="button"><img src="img/arrow-bottom.png" alt="стрелка"></button>
+                          <button type="button"><i class="fas fa-chevron-up"></i></button>
+                          <button type="button"><i class="fas fa-chevron-down"></i></button>
                         </div>
                       </div>
                       <div class="preview-list-cost__money">
@@ -201,7 +196,7 @@
                         <p>Вы сэкономите: <span>215 ₽</span></p>
                       </div>
                     </div>
-                    <div class="preview-list-buttons"><a class="preview-list-buttons__heart" href="#"><img src="img/heart.svg" alt="heart"></a><a class="preview-list-buttons__eye" href="#"><img src="img/eye.svg" alt="eye"></a><a class="preview-list-buttons__cart" href="#">В корзину<img src="img/shopping-cart-w.svg"></a>
+                    <div class="preview-list-buttons"><a class="preview-list-buttons__heart" href="#"><img src="img/WhishList-black.png" alt="heart"></a><a class="preview-list-buttons__eye" href="#"><i class="far fa-eye"></i></a><a class="preview-list-buttons__cart" href="#">В корзину<img src="img/shopping-cart-w.svg"></a>
                     </div>
                   </div>
                 </li>
@@ -210,7 +205,7 @@
                   <div class="preview-list-info">
                     <h4>Крышка для бумажного стакана d-93мм черная</h4>
                     <div class="preview-list-about">
-                      <div class="stars"><img src="img/star-full.png" alt="star"><img src="img/star-full.png" alt="star"><img src="img/star-full.png" alt="star"><img src="img/star-full.png" alt="star"><img src="img/star.png" alt="star"></div>
+                      <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
                       <p>В наличии</p>
                     </div>
                     <div class="preview-list-pack">
@@ -224,8 +219,8 @@
                       <div class="preview-list-cost__count">
                         <input type="text" placeholder="1000">
                         <div class="preview-list-cost__count-btns">
-                          <button type="button"><img src="img/arrow-top.png" alt="стрелка"></button>
-                          <button type="button"><img src="img/arrow-bottom.png" alt="стрелка"></button>
+                          <button type="button"><i class="fas fa-chevron-up"></i></button>
+                          <button type="button"><i class="fas fa-chevron-down"></i></button>
                         </div>
                       </div>
                       <div class="preview-list-cost__money">
@@ -233,7 +228,7 @@
                         <p>Вы сэкономите: <span>7 ₽</span></p>
                       </div>
                     </div>
-                    <div class="preview-list-buttons"><a class="preview-list-buttons__heart" href="#"><img src="img/heart.svg" alt="heart"></a><a class="preview-list-buttons__eye" href="#"><img src="img/eye.svg" alt="eye"></a><a class="preview-list-buttons__cart" href="#">В корзину<img src="img/shopping-cart-w.svg"></a>
+                    <div class="preview-list-buttons"><a class="preview-list-buttons__heart" href="#"><img src="img/WhishList-black.png" alt="heart"></a><a class="preview-list-buttons__eye" href="#"><i class="far fa-eye"></i></a><a class="preview-list-buttons__cart" href="#">В корзину<img src="img/shopping-cart-w.svg"></a>
                     </div>
                   </div>
                 </li>
@@ -283,7 +278,7 @@
         <div class="news-form">
           <h3>Будьте в курсе наших акций и новостей</h3>
           <form action="#">
-            <label for="footer-email"><img src="img/footer-mail.png" alt="email">
+            <label for="footer-email"><i class="fas fa-envelope"></i>
               <input type="email" placeholder="Введите ваш e-mail" required id="footer-email">
             </label>
             <button type="submit">Подписаться</button>
@@ -320,8 +315,8 @@
           <div class="footer-social">
             <h3>Мы в соц. сетях</h3>
             <ul>
-              <li><a href="#">Instagram<img src="img/Instagram.png" alt="Инстаграмм"></a></li>
-              <li><a href="#">Facebook<img src="img/facebook.png" alt="Фейсбук"></a></li>
+              <li><!--noindex--><a href="#" rel="nofollow noopener noreferrer" target="_blank">Instagram<i class="fab fa-instagram"></i></a><!--/noindex--></li>
+              <li><!--noindex--><a href="#" rel="nofollow noopener noreferrer" target="_blank">Facebook<i class="fab fa-facebook-f"></i></a><!--/noindex--></li>
             </ul>
           </div>
         </div>
