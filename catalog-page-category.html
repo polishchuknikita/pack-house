@@ -10,6 +10,8 @@
     <link href="fonts/FontAwesome/css/all.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/slick.css">
     <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.arcticmodal-0.3.css">
+    <link rel="stylesheet" type="text/css" href="css/simple.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/media-queries.css">
   </head>
@@ -113,7 +115,7 @@
             </div>
             <div class="catalog-page-category-info__banner"> <a href="#"> <span>Брендировананная продукция</span><img src="img/banner-category-bg.jpg" alt="banner"></a></div>
           </div>
-          <div class="catalog-page-cart"> 
+          <div class="catalog-page-cart catalog-page-cart_category">
             <ul class="catalog-page-cart__list"> 
                   <li><a href="#">
                       <h4>Картонные</h4><img src="img/category-page-item.png" alt="img"></a></li>
@@ -130,294 +132,296 @@
               </div>
               <div class="catalog-page-cart__filter-group"> <a href="#">По умолчанию<img src="img/angle-down.png" alt="angel"></a></div>
             </div>
-                <li>
-                  <div class="preview-list-img"><span>Акция</span><img src="img/catalog-category/item.png" alt="Картинка"><span>-13%</span></div>
-                  <div class="preview-list-info">
-                    <h4>Контейнер алюминиевый 430мл</h4>
-                    <div class="preview-list-about">
-                      <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
-                      <p>В наличии</p>
-                    </div>
-                    <div class="preview-list-pack">
-                      <button class="active" type="button">2400 шт. в коробке</button>
-                      <button type="button">100 шт. в коробке</button>
-                    </div>
-                    <div class="preview-list-cost">
-                      <div class="preview-list-cost__one">
-                        <p>3.65 ₽</p><span>1 шт</span>
+            <ul class="preview-list preview-list_category-page">
+                  <li>
+                    <div class="preview-list-img"><span>Акция</span><img src="img/catalog-category/item.png" alt="Картинка"><span>-13%</span></div>
+                    <div class="preview-list-info">
+                      <h4>Контейнер алюминиевый 430мл</h4>
+                      <div class="preview-list-about">
+                        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
+                        <p>В наличии</p>
                       </div>
-                      <div class="preview-list-cost__count">
-                        <input type="text" placeholder="1000">
-                        <div class="preview-list-cost__count-btns">
-                          <button type="button"><i class="fas fa-chevron-up"></i></button>
-                          <button type="button"><i class="fas fa-chevron-down"></i></button>
+                      <div class="preview-list-pack">
+                        <button class="active" type="button">2400 шт. в коробке</button>
+                        <button type="button">100 шт. в коробке</button>
+                      </div>
+                      <div class="preview-list-cost">
+                        <div class="preview-list-cost__one">
+                          <p>3.65 ₽</p><span>1 шт</span>
+                        </div>
+                        <div class="preview-list-cost__count">
+                          <input type="text" placeholder="1000">
+                          <div class="preview-list-cost__count-btns">
+                            <button type="button"><i class="fas fa-chevron-up"></i></button>
+                            <button type="button"><i class="fas fa-chevron-down"></i></button>
+                          </div>
+                        </div>
+                        <div class="preview-list-cost__money">
+                          <p>Всего: <span>3736 ₽</span></p>
                         </div>
                       </div>
-                      <div class="preview-list-cost__money">
-                        <p>Всего: <span>3736 ₽</span></p>
+                      <div class="preview-list-buttons"><a class="preview-list-buttons__heart" href="#"><img src="img/WhishList-black.png" alt="heart"></a><a class="preview-list-buttons__eye" href="#"><i class="far fa-eye"></i></a><a class="preview-list-buttons__cart" href="#"> 
+                          <p>В корзину</p><img src="img/shopping-cart-w.svg"></a>
                       </div>
                     </div>
-                    <div class="preview-list-buttons"><a class="preview-list-buttons__heart" href="#"><img src="img/WhishList-black.png" alt="heart"></a><a class="preview-list-buttons__eye" href="#"><i class="far fa-eye"></i></a><a class="preview-list-buttons__cart" href="#"> 
-                        <p>В корзину</p><img src="img/shopping-cart-w.svg"></a>
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="preview-list-img"><span>Акция</span><img src="img/catalog-category/item2.png" alt="Картинка"><span>-13%</span></div>
-                  <div class="preview-list-info">
-                    <h4>Контейнер алюминиевый 430мл</h4>
-                    <div class="preview-list-about">
-                      <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
-                      <p>В наличии</p>
-                    </div>
-                    <div class="preview-list-pack">
-                      <button class="active" type="button">2400 шт. в коробке</button>
-                      <button type="button">100 шт. в коробке</button>
-                    </div>
-                    <div class="preview-list-cost">
-                      <div class="preview-list-cost__one">
-                        <p>3.65 ₽</p><span>1 шт</span>
+                  </li>
+                  <li>
+                    <div class="preview-list-img"><span>Акция</span><img src="img/catalog-category/item2.png" alt="Картинка"><span>-13%</span></div>
+                    <div class="preview-list-info">
+                      <h4>Контейнер алюминиевый 430мл</h4>
+                      <div class="preview-list-about">
+                        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
+                        <p>В наличии</p>
                       </div>
-                      <div class="preview-list-cost__count">
-                        <input type="text" placeholder="1000">
-                        <div class="preview-list-cost__count-btns">
-                          <button type="button"><i class="fas fa-chevron-up"></i></button>
-                          <button type="button"><i class="fas fa-chevron-down"></i></button>
+                      <div class="preview-list-pack">
+                        <button class="active" type="button">2400 шт. в коробке</button>
+                        <button type="button">100 шт. в коробке</button>
+                      </div>
+                      <div class="preview-list-cost">
+                        <div class="preview-list-cost__one">
+                          <p>3.65 ₽</p><span>1 шт</span>
+                        </div>
+                        <div class="preview-list-cost__count">
+                          <input type="text" placeholder="1000">
+                          <div class="preview-list-cost__count-btns">
+                            <button type="button"><i class="fas fa-chevron-up"></i></button>
+                            <button type="button"><i class="fas fa-chevron-down"></i></button>
+                          </div>
+                        </div>
+                        <div class="preview-list-cost__money">
+                          <p>Всего: <span>3736 ₽</span></p>
                         </div>
                       </div>
-                      <div class="preview-list-cost__money">
-                        <p>Всего: <span>3736 ₽</span></p>
+                      <div class="preview-list-buttons"><a class="preview-list-buttons__heart" href="#"><img src="img/WhishList-black.png" alt="heart"></a><a class="preview-list-buttons__eye" href="#"><i class="far fa-eye"></i></a><a class="preview-list-buttons__cart" href="#"> 
+                          <p>В корзину</p><img src="img/shopping-cart-w.svg"></a>
                       </div>
                     </div>
-                    <div class="preview-list-buttons"><a class="preview-list-buttons__heart" href="#"><img src="img/WhishList-black.png" alt="heart"></a><a class="preview-list-buttons__eye" href="#"><i class="far fa-eye"></i></a><a class="preview-list-buttons__cart" href="#"> 
-                        <p>В корзину</p><img src="img/shopping-cart-w.svg"></a>
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="preview-list-img"><span>Акция</span><img src="img/catalog-category/item3.png" alt="Картинка"><span>-13%</span></div>
-                  <div class="preview-list-info">
-                    <h4>Контейнер алюминиевый 430мл</h4>
-                    <div class="preview-list-about">
-                      <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
-                      <p>В наличии</p>
-                    </div>
-                    <div class="preview-list-pack">
-                      <button class="active" type="button">2400 шт. в коробке</button>
-                      <button type="button">100 шт. в коробке</button>
-                    </div>
-                    <div class="preview-list-cost">
-                      <div class="preview-list-cost__one">
-                        <p>3.65 ₽</p><span>1 шт</span>
+                  </li>
+                  <li>
+                    <div class="preview-list-img"><span>Акция</span><img src="img/catalog-category/item3.png" alt="Картинка"><span>-13%</span></div>
+                    <div class="preview-list-info">
+                      <h4>Контейнер алюминиевый 430мл</h4>
+                      <div class="preview-list-about">
+                        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
+                        <p>В наличии</p>
                       </div>
-                      <div class="preview-list-cost__count">
-                        <input type="text" placeholder="1000">
-                        <div class="preview-list-cost__count-btns">
-                          <button type="button"><i class="fas fa-chevron-up"></i></button>
-                          <button type="button"><i class="fas fa-chevron-down"></i></button>
+                      <div class="preview-list-pack">
+                        <button class="active" type="button">2400 шт. в коробке</button>
+                        <button type="button">100 шт. в коробке</button>
+                      </div>
+                      <div class="preview-list-cost">
+                        <div class="preview-list-cost__one">
+                          <p>3.65 ₽</p><span>1 шт</span>
+                        </div>
+                        <div class="preview-list-cost__count">
+                          <input type="text" placeholder="1000">
+                          <div class="preview-list-cost__count-btns">
+                            <button type="button"><i class="fas fa-chevron-up"></i></button>
+                            <button type="button"><i class="fas fa-chevron-down"></i></button>
+                          </div>
+                        </div>
+                        <div class="preview-list-cost__money">
+                          <p>Всего: <span>3736 ₽</span></p>
                         </div>
                       </div>
-                      <div class="preview-list-cost__money">
-                        <p>Всего: <span>3736 ₽</span></p>
+                      <div class="preview-list-buttons"><a class="preview-list-buttons__heart" href="#"><img src="img/WhishList-black.png" alt="heart"></a><a class="preview-list-buttons__eye" href="#"><i class="far fa-eye"></i></a><a class="preview-list-buttons__cart" href="#"> 
+                          <p>В корзину</p><img src="img/shopping-cart-w.svg"></a>
                       </div>
                     </div>
-                    <div class="preview-list-buttons"><a class="preview-list-buttons__heart" href="#"><img src="img/WhishList-black.png" alt="heart"></a><a class="preview-list-buttons__eye" href="#"><i class="far fa-eye"></i></a><a class="preview-list-buttons__cart" href="#"> 
-                        <p>В корзину</p><img src="img/shopping-cart-w.svg"></a>
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="preview-list-img"><span>Акция</span><img src="img/catalog-category/item4.png" alt="Картинка"><span>-13%</span></div>
-                  <div class="preview-list-info">
-                    <h4>Контейнер алюминиевый 430мл</h4>
-                    <div class="preview-list-about">
-                      <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
-                      <p>В наличии</p>
-                    </div>
-                    <div class="preview-list-pack">
-                      <button class="active" type="button">2400 шт. в коробке</button>
-                      <button type="button">100 шт. в коробке</button>
-                    </div>
-                    <div class="preview-list-cost">
-                      <div class="preview-list-cost__one">
-                        <p>3.65 ₽</p><span>1 шт</span>
+                  </li>
+                  <li>
+                    <div class="preview-list-img"><span>Акция</span><img src="img/catalog-category/item4.png" alt="Картинка"><span>-13%</span></div>
+                    <div class="preview-list-info">
+                      <h4>Контейнер алюминиевый 430мл</h4>
+                      <div class="preview-list-about">
+                        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
+                        <p>В наличии</p>
                       </div>
-                      <div class="preview-list-cost__count">
-                        <input type="text" placeholder="1000">
-                        <div class="preview-list-cost__count-btns">
-                          <button type="button"><i class="fas fa-chevron-up"></i></button>
-                          <button type="button"><i class="fas fa-chevron-down"></i></button>
+                      <div class="preview-list-pack">
+                        <button class="active" type="button">2400 шт. в коробке</button>
+                        <button type="button">100 шт. в коробке</button>
+                      </div>
+                      <div class="preview-list-cost">
+                        <div class="preview-list-cost__one">
+                          <p>3.65 ₽</p><span>1 шт</span>
+                        </div>
+                        <div class="preview-list-cost__count">
+                          <input type="text" placeholder="1000">
+                          <div class="preview-list-cost__count-btns">
+                            <button type="button"><i class="fas fa-chevron-up"></i></button>
+                            <button type="button"><i class="fas fa-chevron-down"></i></button>
+                          </div>
+                        </div>
+                        <div class="preview-list-cost__money">
+                          <p>Всего: <span>3736 ₽</span></p>
                         </div>
                       </div>
-                      <div class="preview-list-cost__money">
-                        <p>Всего: <span>3736 ₽</span></p>
+                      <div class="preview-list-buttons"><a class="preview-list-buttons__heart" href="#"><img src="img/WhishList-black.png" alt="heart"></a><a class="preview-list-buttons__eye" href="#"><i class="far fa-eye"></i></a><a class="preview-list-buttons__cart" href="#"> 
+                          <p>В корзину</p><img src="img/shopping-cart-w.svg"></a>
                       </div>
                     </div>
-                    <div class="preview-list-buttons"><a class="preview-list-buttons__heart" href="#"><img src="img/WhishList-black.png" alt="heart"></a><a class="preview-list-buttons__eye" href="#"><i class="far fa-eye"></i></a><a class="preview-list-buttons__cart" href="#"> 
-                        <p>В корзину</p><img src="img/shopping-cart-w.svg"></a>
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="preview-list-img"><span>Акция</span><img src="img/catalog-category/item5.png" alt="Картинка"><span>-13%</span></div>
-                  <div class="preview-list-info">
-                    <h4>Контейнер алюминиевый 430мл</h4>
-                    <div class="preview-list-about">
-                      <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
-                      <p>В наличии</p>
-                    </div>
-                    <div class="preview-list-pack">
-                      <button class="active" type="button">2400 шт. в коробке</button>
-                      <button type="button">100 шт. в коробке</button>
-                    </div>
-                    <div class="preview-list-cost">
-                      <div class="preview-list-cost__one">
-                        <p>3.65 ₽</p><span>1 шт</span>
+                  </li>
+                  <li>
+                    <div class="preview-list-img"><span>Акция</span><img src="img/catalog-category/item5.png" alt="Картинка"><span>-13%</span></div>
+                    <div class="preview-list-info">
+                      <h4>Контейнер алюминиевый 430мл</h4>
+                      <div class="preview-list-about">
+                        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
+                        <p>В наличии</p>
                       </div>
-                      <div class="preview-list-cost__count">
-                        <input type="text" placeholder="1000">
-                        <div class="preview-list-cost__count-btns">
-                          <button type="button"><i class="fas fa-chevron-up"></i></button>
-                          <button type="button"><i class="fas fa-chevron-down"></i></button>
+                      <div class="preview-list-pack">
+                        <button class="active" type="button">2400 шт. в коробке</button>
+                        <button type="button">100 шт. в коробке</button>
+                      </div>
+                      <div class="preview-list-cost">
+                        <div class="preview-list-cost__one">
+                          <p>3.65 ₽</p><span>1 шт</span>
+                        </div>
+                        <div class="preview-list-cost__count">
+                          <input type="text" placeholder="1000">
+                          <div class="preview-list-cost__count-btns">
+                            <button type="button"><i class="fas fa-chevron-up"></i></button>
+                            <button type="button"><i class="fas fa-chevron-down"></i></button>
+                          </div>
+                        </div>
+                        <div class="preview-list-cost__money">
+                          <p>Всего: <span>3736 ₽</span></p>
                         </div>
                       </div>
-                      <div class="preview-list-cost__money">
-                        <p>Всего: <span>3736 ₽</span></p>
+                      <div class="preview-list-buttons"><a class="preview-list-buttons__heart" href="#"><img src="img/WhishList-black.png" alt="heart"></a><a class="preview-list-buttons__eye" href="#"><i class="far fa-eye"></i></a><a class="preview-list-buttons__cart" href="#"> 
+                          <p>В корзину</p><img src="img/shopping-cart-w.svg"></a>
                       </div>
                     </div>
-                    <div class="preview-list-buttons"><a class="preview-list-buttons__heart" href="#"><img src="img/WhishList-black.png" alt="heart"></a><a class="preview-list-buttons__eye" href="#"><i class="far fa-eye"></i></a><a class="preview-list-buttons__cart" href="#"> 
-                        <p>В корзину</p><img src="img/shopping-cart-w.svg"></a>
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="preview-list-img"><span>Акция</span><img src="img/catalog-category/item6.png" alt="Картинка"><span>-13%</span></div>
-                  <div class="preview-list-info">
-                    <h4>Контейнер алюминиевый 430мл</h4>
-                    <div class="preview-list-about">
-                      <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
-                      <p>В наличии</p>
-                    </div>
-                    <div class="preview-list-pack">
-                      <button class="active" type="button">2400 шт. в коробке</button>
-                      <button type="button">100 шт. в коробке</button>
-                    </div>
-                    <div class="preview-list-cost">
-                      <div class="preview-list-cost__one">
-                        <p>3.65 ₽</p><span>1 шт</span>
+                  </li>
+                  <li>
+                    <div class="preview-list-img"><span>Акция</span><img src="img/catalog-category/item6.png" alt="Картинка"><span>-13%</span></div>
+                    <div class="preview-list-info">
+                      <h4>Контейнер алюминиевый 430мл</h4>
+                      <div class="preview-list-about">
+                        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
+                        <p>В наличии</p>
                       </div>
-                      <div class="preview-list-cost__count">
-                        <input type="text" placeholder="1000">
-                        <div class="preview-list-cost__count-btns">
-                          <button type="button"><i class="fas fa-chevron-up"></i></button>
-                          <button type="button"><i class="fas fa-chevron-down"></i></button>
+                      <div class="preview-list-pack">
+                        <button class="active" type="button">2400 шт. в коробке</button>
+                        <button type="button">100 шт. в коробке</button>
+                      </div>
+                      <div class="preview-list-cost">
+                        <div class="preview-list-cost__one">
+                          <p>3.65 ₽</p><span>1 шт</span>
+                        </div>
+                        <div class="preview-list-cost__count">
+                          <input type="text" placeholder="1000">
+                          <div class="preview-list-cost__count-btns">
+                            <button type="button"><i class="fas fa-chevron-up"></i></button>
+                            <button type="button"><i class="fas fa-chevron-down"></i></button>
+                          </div>
+                        </div>
+                        <div class="preview-list-cost__money">
+                          <p>Всего: <span>3736 ₽</span></p>
                         </div>
                       </div>
-                      <div class="preview-list-cost__money">
-                        <p>Всего: <span>3736 ₽</span></p>
+                      <div class="preview-list-buttons"><a class="preview-list-buttons__heart" href="#"><img src="img/WhishList-black.png" alt="heart"></a><a class="preview-list-buttons__eye" href="#"><i class="far fa-eye"></i></a><a class="preview-list-buttons__cart" href="#"> 
+                          <p>В корзину</p><img src="img/shopping-cart-w.svg"></a>
                       </div>
                     </div>
-                    <div class="preview-list-buttons"><a class="preview-list-buttons__heart" href="#"><img src="img/WhishList-black.png" alt="heart"></a><a class="preview-list-buttons__eye" href="#"><i class="far fa-eye"></i></a><a class="preview-list-buttons__cart" href="#"> 
-                        <p>В корзину</p><img src="img/shopping-cart-w.svg"></a>
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="preview-list-img"><span>Акция</span><img src="img/catalog-category/item7.png" alt="Картинка"><span>-13%</span></div>
-                  <div class="preview-list-info">
-                    <h4>Контейнер алюминиевый 430мл</h4>
-                    <div class="preview-list-about">
-                      <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
-                      <p>В наличии</p>
-                    </div>
-                    <div class="preview-list-pack">
-                      <button class="active" type="button">2400 шт. в коробке</button>
-                      <button type="button">100 шт. в коробке</button>
-                    </div>
-                    <div class="preview-list-cost">
-                      <div class="preview-list-cost__one">
-                        <p>3.65 ₽</p><span>1 шт</span>
+                  </li>
+                  <li>
+                    <div class="preview-list-img"><span>Акция</span><img src="img/catalog-category/item7.png" alt="Картинка"><span>-13%</span></div>
+                    <div class="preview-list-info">
+                      <h4>Контейнер алюминиевый 430мл</h4>
+                      <div class="preview-list-about">
+                        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
+                        <p>В наличии</p>
                       </div>
-                      <div class="preview-list-cost__count">
-                        <input type="text" placeholder="1000">
-                        <div class="preview-list-cost__count-btns">
-                          <button type="button"><i class="fas fa-chevron-up"></i></button>
-                          <button type="button"><i class="fas fa-chevron-down"></i></button>
+                      <div class="preview-list-pack">
+                        <button class="active" type="button">2400 шт. в коробке</button>
+                        <button type="button">100 шт. в коробке</button>
+                      </div>
+                      <div class="preview-list-cost">
+                        <div class="preview-list-cost__one">
+                          <p>3.65 ₽</p><span>1 шт</span>
+                        </div>
+                        <div class="preview-list-cost__count">
+                          <input type="text" placeholder="1000">
+                          <div class="preview-list-cost__count-btns">
+                            <button type="button"><i class="fas fa-chevron-up"></i></button>
+                            <button type="button"><i class="fas fa-chevron-down"></i></button>
+                          </div>
+                        </div>
+                        <div class="preview-list-cost__money">
+                          <p>Всего: <span>3736 ₽</span></p>
                         </div>
                       </div>
-                      <div class="preview-list-cost__money">
-                        <p>Всего: <span>3736 ₽</span></p>
+                      <div class="preview-list-buttons"><a class="preview-list-buttons__heart" href="#"><img src="img/WhishList-black.png" alt="heart"></a><a class="preview-list-buttons__eye" href="#"><i class="far fa-eye"></i></a><a class="preview-list-buttons__cart" href="#"> 
+                          <p>В корзину</p><img src="img/shopping-cart-w.svg"></a>
                       </div>
                     </div>
-                    <div class="preview-list-buttons"><a class="preview-list-buttons__heart" href="#"><img src="img/WhishList-black.png" alt="heart"></a><a class="preview-list-buttons__eye" href="#"><i class="far fa-eye"></i></a><a class="preview-list-buttons__cart" href="#"> 
-                        <p>В корзину</p><img src="img/shopping-cart-w.svg"></a>
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="preview-list-img"><span>Акция</span><img src="img/catalog-category/item8.png" alt="Картинка"><span>-13%</span></div>
-                  <div class="preview-list-info">
-                    <h4>Контейнер алюминиевый 430мл</h4>
-                    <div class="preview-list-about">
-                      <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
-                      <p>В наличии</p>
-                    </div>
-                    <div class="preview-list-pack">
-                      <button class="active" type="button">2400 шт. в коробке</button>
-                      <button type="button">100 шт. в коробке</button>
-                    </div>
-                    <div class="preview-list-cost">
-                      <div class="preview-list-cost__one">
-                        <p>3.65 ₽</p><span>1 шт</span>
+                  </li>
+                  <li>
+                    <div class="preview-list-img"><span>Акция</span><img src="img/catalog-category/item8.png" alt="Картинка"><span>-13%</span></div>
+                    <div class="preview-list-info">
+                      <h4>Контейнер алюминиевый 430мл</h4>
+                      <div class="preview-list-about">
+                        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
+                        <p>В наличии</p>
                       </div>
-                      <div class="preview-list-cost__count">
-                        <input type="text" placeholder="1000">
-                        <div class="preview-list-cost__count-btns">
-                          <button type="button"><i class="fas fa-chevron-up"></i></button>
-                          <button type="button"><i class="fas fa-chevron-down"></i></button>
+                      <div class="preview-list-pack">
+                        <button class="active" type="button">2400 шт. в коробке</button>
+                        <button type="button">100 шт. в коробке</button>
+                      </div>
+                      <div class="preview-list-cost">
+                        <div class="preview-list-cost__one">
+                          <p>3.65 ₽</p><span>1 шт</span>
+                        </div>
+                        <div class="preview-list-cost__count">
+                          <input type="text" placeholder="1000">
+                          <div class="preview-list-cost__count-btns">
+                            <button type="button"><i class="fas fa-chevron-up"></i></button>
+                            <button type="button"><i class="fas fa-chevron-down"></i></button>
+                          </div>
+                        </div>
+                        <div class="preview-list-cost__money">
+                          <p>Всего: <span>3736 ₽</span></p>
                         </div>
                       </div>
-                      <div class="preview-list-cost__money">
-                        <p>Всего: <span>3736 ₽</span></p>
+                      <div class="preview-list-buttons"><a class="preview-list-buttons__heart" href="#"><img src="img/WhishList-black.png" alt="heart"></a><a class="preview-list-buttons__eye" href="#"><i class="far fa-eye"></i></a><a class="preview-list-buttons__cart" href="#"> 
+                          <p>В корзину</p><img src="img/shopping-cart-w.svg"></a>
                       </div>
                     </div>
-                    <div class="preview-list-buttons"><a class="preview-list-buttons__heart" href="#"><img src="img/WhishList-black.png" alt="heart"></a><a class="preview-list-buttons__eye" href="#"><i class="far fa-eye"></i></a><a class="preview-list-buttons__cart" href="#"> 
-                        <p>В корзину</p><img src="img/shopping-cart-w.svg"></a>
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="preview-list-img"><span>Акция</span><img src="img/catalog-category/item9.png" alt="Картинка"><span>-13%</span></div>
-                  <div class="preview-list-info">
-                    <h4>Контейнер алюминиевый 430мл</h4>
-                    <div class="preview-list-about">
-                      <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
-                      <p>В наличии</p>
-                    </div>
-                    <div class="preview-list-pack">
-                      <button class="active" type="button">2400 шт. в коробке</button>
-                      <button type="button">100 шт. в коробке</button>
-                    </div>
-                    <div class="preview-list-cost">
-                      <div class="preview-list-cost__one">
-                        <p>3.65 ₽</p><span>1 шт</span>
+                  </li>
+                  <li>
+                    <div class="preview-list-img"><span>Акция</span><img src="img/catalog-category/item9.png" alt="Картинка"><span>-13%</span></div>
+                    <div class="preview-list-info">
+                      <h4>Контейнер алюминиевый 430мл</h4>
+                      <div class="preview-list-about">
+                        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
+                        <p>В наличии</p>
                       </div>
-                      <div class="preview-list-cost__count">
-                        <input type="text" placeholder="1000">
-                        <div class="preview-list-cost__count-btns">
-                          <button type="button"><i class="fas fa-chevron-up"></i></button>
-                          <button type="button"><i class="fas fa-chevron-down"></i></button>
+                      <div class="preview-list-pack">
+                        <button class="active" type="button">2400 шт. в коробке</button>
+                        <button type="button">100 шт. в коробке</button>
+                      </div>
+                      <div class="preview-list-cost">
+                        <div class="preview-list-cost__one">
+                          <p>3.65 ₽</p><span>1 шт</span>
+                        </div>
+                        <div class="preview-list-cost__count">
+                          <input type="text" placeholder="1000">
+                          <div class="preview-list-cost__count-btns">
+                            <button type="button"><i class="fas fa-chevron-up"></i></button>
+                            <button type="button"><i class="fas fa-chevron-down"></i></button>
+                          </div>
+                        </div>
+                        <div class="preview-list-cost__money">
+                          <p>Всего: <span>3736 ₽</span></p>
                         </div>
                       </div>
-                      <div class="preview-list-cost__money">
-                        <p>Всего: <span>3736 ₽</span></p>
+                      <div class="preview-list-buttons"><a class="preview-list-buttons__heart" href="#"><img src="img/WhishList-black.png" alt="heart"></a><a class="preview-list-buttons__eye" href="#"><i class="far fa-eye"></i></a><a class="preview-list-buttons__cart" href="#"> 
+                          <p>В корзину</p><img src="img/shopping-cart-w.svg"></a>
                       </div>
                     </div>
-                    <div class="preview-list-buttons"><a class="preview-list-buttons__heart" href="#"><img src="img/WhishList-black.png" alt="heart"></a><a class="preview-list-buttons__eye" href="#"><i class="far fa-eye"></i></a><a class="preview-list-buttons__cart" href="#"> 
-                        <p>В корзину</p><img src="img/shopping-cart-w.svg"></a>
-                    </div>
-                  </div>
-                </li><a class="news-page-btn-more product-all-btn" href="#">Показать больше<i class="fas fa-sync"></i></a>
+                  </li>
+            </ul><a class="news-page-btn-more product-all-btn" href="#">Показать больше<i class="fas fa-sync"></i></a>
             <div class="news-page-content__pagination-info">
               <ul class="news-page-content__pagination-list">
                 <li> <a class="active" href="#">1</a></li>
@@ -494,6 +498,7 @@
       </div>
     </footer>
     <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/jquery.arcticmodal-0.3.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/main.js"></script>
   </body>

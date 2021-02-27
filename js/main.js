@@ -7,7 +7,7 @@ $(document).ready(function() {
             speed: 300,
             slidesToShow: 4,
             slidesToScroll: 1,
-            autoplay: true,
+            autoplay: false,
             prevArrow: `<button type="button" class=${prevArrow}><i class="fas fa-angle-left"></i></button>`,
             nextArrow: `<button type="button" class=${nextArrow}><i class="fas fa-angle-right"></i></button>`,
             responsive: [
@@ -63,4 +63,25 @@ $(document).ready(function() {
 
     activeClassMenu('.nav-menu-hamburger', '.catalog-btn');
     activeClassMenu('.catalog-btn', '.nav-menu-hamburger');
+
+    // Modal$
+    $('.header-info__contact-us').click((e) =>{
+      e.preventDefault();
+      $('#regModal').arcticmodal();
+    })
+
+    // Solo news slider
+    if ($(this).width() <= 768) {
+      $('.solo-news__more').slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: false,
+        prevArrow: `<button type="button" class="solo-news-prevArrow slick-arrow"><i class="fas fa-angle-left"></i></button>`,
+        nextArrow: `<button type="button" class="solo-news-nextArrow slick-arrow"><i class="fas fa-angle-right"></i></button>`
+      });
+
+    }
 });
