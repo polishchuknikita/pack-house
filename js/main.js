@@ -47,6 +47,7 @@ $(document).ready(function() {
     // Click hamburger header
     $('.nav-menu-hamburger').click( () => {
         $('.nav').toggleClass('nav_active')
+        $('.catalog-menu-wrap_mobile').removeClass('active')
     })
 
     // Add active class mobile
@@ -82,6 +83,18 @@ $(document).ready(function() {
         prevArrow: `<button type="button" class="solo-news-prevArrow slick-arrow"><i class="fas fa-angle-left"></i></button>`,
         nextArrow: `<button type="button" class="solo-news-nextArrow slick-arrow"><i class="fas fa-angle-right"></i></button>`
       });
-
     }
+
+    $('.catalog-btn').click((e) => {
+      e.preventDefault();
+      $('.catalog-menu-wrap_mobile').toggleClass('active')
+    })
+
+    $('.catalog-menu > li > p').click((e) => {
+      // console.log(e.target.parent());
+      if($('.catalog-menu > li > p') != e.target) {
+        $('.catalog-menu > li > p').removeClass('active')
+        $(e.target).addClass('active')
+      }
+    })
 });
